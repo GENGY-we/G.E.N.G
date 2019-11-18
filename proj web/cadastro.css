@@ -1,0 +1,106 @@
+* {
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+fieldset {
+    border: 0;
+}
+
+body, input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    background: rgb(74, 186, 206);
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+    
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #F90;
+    text-shadow: 1px 1px #000, 1px -1px #000, -1px 1px #000, -1px -1px #000;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: rgb(251, 250, 252);
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+button {
+    font-size: 1.5em;
+    background: #F90;
+    border-radius: 50px;
+    margin-bottom: 1em;
+    color: rgb(247, 245, 243);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+button {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+
+}
+
+button, select, label.checkbox {
+    cursor: pointer;
+}
+input {
+    background: rgb(255, 255, 255)
+}
+
+.titi {
+    font-size: 1.5em;
+    color: rgb(255, 168, 6)
+    
+}
+.titi h1 {
+    text-shadow: 1px 1px #000, 1px -1px #000, -1px 1px #000, -1px -1px #000;
+}
+
+.foto {
+    padding: -10px;
+    text-align: right;
+    max-height: 100px;
+}

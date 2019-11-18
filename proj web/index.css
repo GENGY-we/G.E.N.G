@@ -1,0 +1,31 @@
+*{
+    color:white;
+    background-color: black;
+}
+header{
+    text-align: center;
+     margin: 0 auto; 
+    padding: 20px;
+    border-bottom: 2px solid #808080; 
+}
+a {
+    width: 150px;
+    padding: 20px;
+}
+body{
+    background-color: black;
+}
+figure{
+    display: inline-block;
+    margin: 0 auto; 
+    text-align: center;
+    padding: 20px;
+    
+}
+nav-item{
+    border-radius: 50px;
+    border: 1px solid rgb(4, 0, 255);
+}
+footer{
+    
+}
